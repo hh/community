@@ -100,6 +100,9 @@ As a cluster admin I will easily be able to enable the interal auditing features
 #### Story 2
 As a Kubernetes extension developer, I will be able to provide drop in extensions that utilize audit data.
 
+#### Story 3
+As a cluster admin, I will be able configure multiple audit-policies and webhook endpoints to provide independent auditing facilities.
+
 ### Implementation Details/Notes/Constraints
 
 A misunderstanding may occur of both flags are defined and an object is provided. This should be explicitly called out in the 
